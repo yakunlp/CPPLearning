@@ -1,0 +1,13 @@
+C++ and Generic Programming
+Generic programming is yet another programming paradigm supported by C++. It shares
+with OOP the aim of making it simpler to reuse code and the technique of abstracting
+general concepts. But whereas OOP emphasizes the data aspect of programming, generic
+programming emphasizes independence from a particular data type.And its focus is different. OOP is a tool for managing large projects, whereas generic programming provides
+tools for performing common tasks, such as sorting data or merging lists.The term generic
+refers to code that is type independent. C++ data representations come in many types—
+integers, numbers with fractional parts, characters, strings of characters,and user-defined
+compound structures of several types. If, for example, you wanted to sort data of these
+various types, you would normally have to create a separate sorting function for each
+type. Generic programming involves extending the language so that you can write a
+function for a generic (that is,an unspecified) type once and use it for a variety of actual
+types. C++ templates provide a mechanism for doing that.
